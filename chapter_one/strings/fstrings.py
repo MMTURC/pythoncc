@@ -2,7 +2,10 @@ first_name = "smell"
 
 last_name = "poop"
 
-message = f"{first_name} {last_name}"
+full_name = f"{first_name} {last_name}"
 
 
-print(message)
+print(f"{full_name.title()}")
+
+
+print(full_name)
